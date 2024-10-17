@@ -16,56 +16,43 @@ class LoginPage extends StatelessWidget {
       padding: EdgeInsets.all(16),
       child: ListView(
         children: [
-          TextFormField(
-            style: TextStyle(
-              fontSize: 25,
-              color: Colors.blue
-            ),
-            decoration: InputDecoration(
-              labelText: "Login",
-              labelStyle: TextStyle(
-                fontSize: 25,
-                color: Colors.grey
-              ),
-              hintText: "Digite o Login",
-              hintStyle: TextStyle(
-               fontSize: 16
-              )
-            ),
+          _text("Login", "Digite o login"),
+          SizedBox(
+            height: 10,
           ),
-          SizedBox(height: 10,),
-          TextFormField(
-            obscureText: true,
-            style: TextStyle(
-                fontSize: 25,
-                color: Colors.blue
-            ),
-            decoration: InputDecoration(
-                labelText: "Senha",
-                labelStyle: TextStyle(
-                    fontSize: 25,
-                    color: Colors.grey
-                ),
-                hintText: "Digite a senha",
-                hintStyle: TextStyle(
-                    fontSize: 16
-                )
-            ),
+          _text("Senha", "Digite a senha"),
+          SizedBox(
+            height: 20,
           ),
-          SizedBox(height: 20,),
-          Container(
-            child: ElevatedButton(
-                child: Text("Login",
-             style: TextStyle(color: Colors.white, fontSize: 25),),
-                onPressed: () {
-                },
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.blue, // Background color
-              ),
-            ),
-          ),
+          _button("Login"),
         ],
       ),
+    );
+  }
+
+  _button(String text) {
+    return Container(
+      child: ElevatedButton(
+        child: Text(
+          text,
+          style: TextStyle(color: Colors.white, fontSize: 25),
+        ),
+        onPressed: () {},
+        style: ElevatedButton.styleFrom(
+          backgroundColor: Colors.blue, // Background color
+        ),
+      ),
+    );
+  }
+
+  _text(String label, String hint) {
+    return TextFormField(
+      style: TextStyle(fontSize: 25, color: Colors.blue),
+      decoration: InputDecoration(
+          labelText: label,
+          labelStyle: TextStyle(fontSize: 25, color: Colors.grey),
+          hintText: hint,
+          hintStyle: TextStyle(fontSize: 16)),
     );
   }
 }
