@@ -15,4 +15,6 @@ Vídeo 4 - Com a remoção de "scaffold" e substituindo por "container" e após 
 sendo possivel colocar outra cor pode ser deixada como comando padrão.
 
 Vídeo 5 - Criando um "ListView" no body e adicionando um children,criando um text chamado "Login" incluindo um "TextFormField" que é o campo de texto refazendo a mesma coisa só colcoando o Text de "Senha"
-criando logo após um botão para ser clicado escrito "Login",fazendo um "obscureText" dentro de senha fazendo assim nãoser mostrado a senha só por meio de  asteristicos 
+criando logo após um botão para ser clicado escrito "Login",fazendo um "obscureText" dentro de senha fazendo assim nãoser mostrado a senha só por meio de  asteristicos.
+
+Vídeo 6 - Fazendo um método para diminuir o sistema de Login e o de Senha deixando os visualmente mais curos mas não mudandoa sua função,fizemos o mesmo no button,fazendo  os metodos usarem "String" para se alinharem e ficarem menores
