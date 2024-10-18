@@ -18,3 +18,5 @@ Vídeo 5 - Criando um "ListView" no body e adicionando um children,criando um te
 criando logo após um botão para ser clicado escrito "Login",fazendo um "obscureText" dentro de senha fazendo assim nãoser mostrado a senha só por meio de  asteristicos.
 
 Vídeo 6 - Fazendo um método para diminuir o sistema de Login e o de Senha deixando os visualmente mais curos mas não mudandoa sua função,fizemos o mesmo no button,fazendo  os metodos usarem "String" para se alinharem e ficarem menores
+
+Vídeo 7 - Adicionando o "Controller" para as funções novas "_tLogin" e "_tSenha" e o botão salvar o nome e a senha que for colocada na área preenchida
