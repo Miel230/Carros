@@ -22,3 +22,5 @@ Vídeo 6 - Fazendo um método para diminuir o sistema de Login e o de Senha deix
 Vídeo 7 - Adicionando o "Controller" para as funções novas "_tLogin" e "_tSenha" e o botão salvar o nome e a senha que for colocada na área preenchida
 
 Vídeo 8 - Explicando que existe outras formas de usar o "_onClickLogin" na parte do button mostrando como os códigos podem ser feitos de diversas formas.
+
+Vídeo 9 -   Ensinando a colar as mensagens erro por ou falta de algo escrito ou a falta de números na senha necessários 
